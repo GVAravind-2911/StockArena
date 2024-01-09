@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown_{
+    opacity: 100;
+    scale:0;
+    transform: translateY(-100px);
+    transform-origin: top;
+    transition: all 0.4s;
+}
+
+.accountimg_{
+    display: contents;
+}
+
+.accountimg_:hover .dropdown_{
+    opacity: 100;
+    scale:1;
+    transform:translateY(0px);
+}
+
+.logindiv_:hover{
+    transition: all 0.2s;
+    background-color: #9BE8D8;
+    color: #0D1282;
+}
+
+.submit_{
+    transition: all 0.2s ease-in-out;
+}
+
+.submit_:hover{
+    transform: scale(1.05);    
+}
